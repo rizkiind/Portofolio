@@ -1,0 +1,45 @@
+@media screen and (max-width : 1200px) {
+    #hero h2 {
+        font-size: .9rem;
+    }
+
+    hero h1 {
+        font-size: 2.3rem;
+    }
+}
+
+@media screen and (max-width : 768px) {
+
+    #hero img {
+        width: 60%;
+    }
+
+    #hero .row {
+        padding-bottom: 75px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    #tentang p {
+        text-align: justify !important;
+    }
+
+    #portofolio .row p {
+        font-size: 1.1rem;
+    }
+
+    .btn-custom1 {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width :576px) {  
+    
+}
+
+@media screen and (max-width : 350px) {
+    #portofolio .col-md-12 {
+        flex-direction: column;
+    }
+}
